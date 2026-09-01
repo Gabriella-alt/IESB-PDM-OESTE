@@ -26,7 +26,7 @@ export default function App() {
   ];
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       {/* Cabeçalho */}
       <Text style={styles.title}>{APP_TITLE}</Text>
 
@@ -64,7 +64,7 @@ export default function App() {
       </View>
 
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#2f4564',
+    color: '#4f2f64',
     marginBottom: 25,
   },
 
